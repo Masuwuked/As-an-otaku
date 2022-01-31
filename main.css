@@ -13,7 +13,9 @@
     bottom: 0;
     z-index: -1;
   }
-  
+  body { 
+    font-family: 'Raleway', sans-serif;
+  }
   /* page content */
   h1, h2 {
     color: rgb(207, 207, 207);
@@ -79,6 +81,7 @@
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(255, 61, 61, 0.589);
     background-color: rgba(0, 0, 0, 0.397);
+    backdrop-filter: blur(3px);
   }
   
   /* Add some padding inside the card container */
@@ -124,6 +127,7 @@ a:link {
   height: 200px;
   background-color: rgba(0, 0, 0, 0.212);
   margin: 0%;
+  font-family: 'Raleway', sans-serif;
   
 }
 #header{
@@ -154,4 +158,10 @@ a:link {
   color: rgb(255, 91, 91);
   font-size: 70px;
   font-family: 'Raleway', sans-serif;
+}
+#quotes{
+  width: auto;
+  height: auto;
+  
+  font-size: 30px;
 }
